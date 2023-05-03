@@ -4,17 +4,14 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
+  <title>ブログ</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section>
-  <h1>ブログ</h1>
-  <ul>
-    {#each data.contents as content}
-      <li><a href="{content.id}">{content.title}</a></li>
-    {/each}
-  </ul>
+  <h1>{data.title}</h1>
+  <img src={data.eyecatch?.url} alt="" />
+  <div>{@html data.content}</div>
 </section>
 
 <style>
@@ -25,9 +22,3 @@
     align-items: center;
   }
 </style>
-  
-
-
-
-<!-- <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p> -->
