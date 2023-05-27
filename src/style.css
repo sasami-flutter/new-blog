@@ -1,0 +1,182 @@
+* ページ全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* ヘッダーのスタイル */
+.header01 {
+  padding: 20px 20px;
+  background-color: #A0522D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+  font-family: 'Chokokutai', cursive;
+  color: 	#f7f7f7;
+  white-space: nowrap;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: 	#f7f7f7;
+}
+
+/* メインコンテンツのスタイル */
+
+.example {
+  position: relative;
+  }
+.exampleimg{
+  vertical-align:top;
+}
+.example p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  /*文字の装飾は省略*/
+  line-height: 1.5;
+  color: #f7f7f7;
+  font-weight: bold;
+  font-size: 6em;
+  font-family: 'Dancing Script', cursive;
+  white-space: nowrap;
+  
+  }
+
+main{
+  background-color: #A0522D;
+  font-family: 'Yomogi', cursive;
+  padding-bottom: 30px;
+}
+
+.example img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.detail {
+  margin: auto;
+  width: 620px;
+  color: #fff;
+}
+/* セクション名ｈ２ */
+h2{
+  text-align: center;
+  font-size: 40px;
+  margin:10px;
+  font-weight:  bold;
+  color: #fff;
+}
+.detail p{
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  background-color: 	#FF8856;
+  border-radius: 40px;
+}
+.menu{
+  color: #fff;
+  width: 100%;
+  overflow-x: auto;
+}
+.menu ul{
+  display: flex;
+  list-style: none;
+}
+.menu li{
+  background-color: #FF8856;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+.menu li h3{
+  margin: 0;
+}
+.menu-item img{
+  height: 300px;
+  width: 300px;
+}
+
+.container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+  background-color: #FF8856;
+  padding: 30px;
+  border-radius: 40px;
+}
+.send{
+  
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  display: block;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	/* width: 120px; */
+	margin: auto;
+	padding: 1rem 4rem;
+	font-weight: bold;
+  background-color: #FF8856;
+	border: 2px solid #fff;
+	color: #fff;
+	transition: 0.5s;
+}
+button:hover {
+	color: #fff;
+	background: #A0522D;
+}
+
+/* button:hover {
+  background-color: #FF8856;
+} */
+/* フッターのスタイル */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+

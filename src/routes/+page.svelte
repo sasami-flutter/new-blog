@@ -4,12 +4,12 @@
 </script>
 
 <svelte:head>
-  <title>Home</title>
+  <title>林ベーカリー</title>
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section>
-  <h1>ブログ</h1>
+  <h1>ブログ2</h1>
   <ul>
     {#each data.contents as content}
       <li><a href="{content.id}">{content.title}</a></li>
